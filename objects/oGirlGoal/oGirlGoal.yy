@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"oGirl",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oGirlGoal",
+  "eventList":[],
   "managed":true,
-  "name":"oGirl",
+  "name":"oGirlGoal",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"oPlayer",
-    "path":"objects/oPlayer/oPlayer.yy",
+    "name":"oGoal",
+    "path":"objects/oGoal/oGoal.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -34,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sGirl",
-    "path":"sprites/sGirl/sGirl.yy",
+    "name":"sGirlGoal",
+    "path":"sprites/sGirlGoal/sGirlGoal.yy",
   },
   "spriteMaskId":null,
   "visible":true,

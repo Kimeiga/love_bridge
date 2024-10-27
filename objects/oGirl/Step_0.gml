@@ -1,11 +1,8 @@
-// get inputs
-rightKey = keyboard_check(vk_right);
-leftKey = keyboard_check(vk_left);
-upKey = keyboard_check(vk_up);
-downKey = keyboard_check(vk_down);
+// Get WASD inputs
+rightKey = keyboard_check(ord("D"));
+leftKey = keyboard_check(ord("A"));
+upKey = keyboard_check(ord("W"));
+downKey = keyboard_check(ord("S"));
 
-xspd = (rightKey - leftKey) * moveSpd;
-yspd = (downKey - upKey) * moveSpd; 
-
-x += xspd;
-y += yspd;
+// Inherit the parent event (this runs all the movement code)
+event_inherited();

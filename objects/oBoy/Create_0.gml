@@ -1,3 +1,5 @@
-moveSpd = 2;
-xspd = 0;
-yspd = 0;
+// Inherit the parent event
+event_inherited();
+
+// Boy specific variables can go here
+moveSpd = 4; // or whatever speed you want
