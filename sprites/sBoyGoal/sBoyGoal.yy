@@ -1,7 +1,7 @@
 {
   "$GMSprite":"",
   "%Name":"sBoyGoal",
-  "bboxMode":0,
+  "bboxMode":1,
   "bbox_bottom":15,
   "bbox_left":0,
   "bbox_right":15,
@@ -23,7 +23,7 @@
   ],
   "name":"sBoyGoal",
   "nineSlice":null,
-  "origin":0,
+  "origin":4,
   "parent":{
     "name":"Sprites",
     "path":"folders/Sprites.yy",
@@ -75,8 +75,8 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
-    "yorigin":0,
+    "xorigin":8,
+    "yorigin":8,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

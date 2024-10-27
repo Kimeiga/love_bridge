@@ -6,3 +6,6 @@ rightKey = 0;
 leftKey = 0;
 upKey = 0;
 downKey = 0;
+can_move = true;
+
+depth = -10000;

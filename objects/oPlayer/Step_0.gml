@@ -1,3 +1,8 @@
+// Step Event of oPlayer
+if (!can_move) {
+    return
+}
+
 // calculate movement vector
 xspd = (rightKey - leftKey);
 yspd = (downKey - upKey);
@@ -31,3 +36,5 @@ if (!_canMoveY) yspd = 0;
 // apply movement
 x += xspd;
 y += yspd;
+
+//depth = -100; 
